@@ -68,3 +68,9 @@ end
 def using_delete(array,string)
    array.delete(string)
 end
+
+#using_delete_at takes in two arguments, an array and an integer and deletes the
+#element at the index of the array that is equal to that integer
+def using_delete_at(array,i)
+  array.delete_at(i)
+end
