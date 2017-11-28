@@ -63,6 +63,8 @@ def using_flatten(array)
   array.flatten
 end
 
+#using_delete takes in two arguments, an array and a string, and uses the delete
+#method to remove any itemsfrom the array that are equal to that string
 def using_delete(array,string)
-  array.delete(string)
+   array.delete(string)
 end
